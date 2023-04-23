@@ -55,6 +55,7 @@ These are the features planned for future versions:
 
 - Add support to `half dollar (50¢)`
 - Increase the valid range to `[0-500]`
+- Add support to [python-string-utils](https://pypi.org/project/python-string-utils/)
 
 ## Warning
 
