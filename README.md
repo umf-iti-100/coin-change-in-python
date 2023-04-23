@@ -14,11 +14,13 @@ You should install and run this project as Python `>= 3.11`. Please make sure yo
 
 ## How to Run
 
+Download this project on your computer. Then, open the terminal/console on your computer and navigate to where you downloaded it. Finally, type the following command:
+
 ```bash
 python main.py
 ```
 
-if you are using MacOS, you should run:
+However, if you are using MacOS, you should type:
 
 ```bash
 python3 main.py
