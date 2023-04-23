@@ -1,4 +1,5 @@
 # Coin Change in Python
+Convert an amount to half dollar, quarters, dimes, nickles, and pennies
 
 ## Requirements
 
