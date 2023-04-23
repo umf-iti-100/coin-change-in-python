@@ -54,7 +54,7 @@ Ooops! The amount is valid
 These are the features planned for future versions:
 
 - Add support to `half dollar (50¢)`
-- Increase the range to [0-500]
+- Increase the valid range to `[0-500]`
 
 ## Warning
 
