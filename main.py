@@ -20,7 +20,7 @@ def printLine():
 def convertToCoins(amount):
 
     if amount < 0 or amount > 99:
-        raise ValueError("The amount should be between [0-99]")
+        raise ValueError("The amount is valid")
 
     quarters = amount // 25
     amount %= 25

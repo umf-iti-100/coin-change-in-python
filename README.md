@@ -54,6 +54,7 @@ Ooops! The amount should be between [0-99]
 These are the features planned for future versions:
 
 - Add support to `half dollar (50¢)`
+- Increase the range to [0-500]
 
 ## Warning
 
