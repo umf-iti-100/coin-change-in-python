@@ -1,6 +1,6 @@
 # Coin Change in Python
 
-Convert an amount to half dollar, quarters, dimes, nickels, and pennies
+Convert an amount to quarters, dimes, nickels, and pennies
 
 [![GitHub Release](https://img.shields.io/github/release/umf-iti-100/coin-change-in-python.svg)](https://github.com/umf-iti-100/coin-change-in-python/releases/latest)
 [![GitHub contributors](https://img.shields.io/github/contributors/umf-iti-100/coin-change-in-python.svg)](https://github.com/umf-iti-100/coin-change-in-python/graphs/contributors)
@@ -53,7 +53,7 @@ Ooops! The amount is valid
 
 These are the features planned for future versions:
 
-- Add support to `half dollar (50¢)`
+- Add support to `half a dollar (50¢)`
 - Increase the valid range to `[0-500]`
 - Add support to [python-string-utils](https://pypi.org/project/python-string-utils/)
 
