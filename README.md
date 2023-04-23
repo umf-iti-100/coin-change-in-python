@@ -3,7 +3,7 @@ Convert an amount to half dollar, quarters, dimes, nickels, and pennies
 
 ## Requirements
 
-You should install and run this project as Python >= 3.11.1. Please make sure you have the same version or higher installed on your machine.
+You should install and run this project as Python >= `3.11`. Please make sure you have the same version or higher installed on your machine.
 
 ## How to Run
 
