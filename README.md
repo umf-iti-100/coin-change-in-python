@@ -50,6 +50,9 @@ Ooops! The amount should be between [0-99]
 ---------------------------------------
 ```
 
+## Warning
+
+This project was left without any unit test or documentation on purpose.
 
 ## Questions or Suggestions
 
