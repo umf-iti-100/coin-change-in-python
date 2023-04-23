@@ -43,9 +43,9 @@ Please enter an amount between 0-99: 35
 The next screenshot is when the user types an invalid amount:
 
 ```sh
-Please enter an amount between 0-99: 123
+Please enter an amount between 0-99: -1
 ---------------------------------------
-Ooops! The amount should be between [0-99]
+Ooops! The amount is valid
 ---------------------------------------
 ```
 
