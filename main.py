@@ -11,8 +11,11 @@ def toCents(value):
 
     return "(" + str(value) + u"\u00A2"+")"
 
+
 def printLine():
+
     print("---------------------------------------")
+
 
 def convertToCoins(amount):
 
@@ -45,6 +48,7 @@ def main():
     print(nickels, "nickels", "\t", toCents(5))
     print(pennies, "pennies", "\t", toCents(1))
     printLine()
+
 
 if __name__ == "__main__":
 
