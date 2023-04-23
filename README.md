@@ -49,3 +49,16 @@ Please enter an amount between 0-99: 123
 Ooops! The amount should be between [0-99]
 ---------------------------------------
 ```
+
+
+## Questions or Suggestions
+
+Feel free to access the <a href="../../discussions">discussions tab</a> as you need
+
+## Contribute
+
+Contributions to this project are very welcome! We can't do this alone! Feel free to fork this project, work on it and then make a pull request.
+
+## License
+
+Licensed under the [MIT license](LICENSE).
