@@ -11,6 +11,8 @@ def toCents(value):
 
     return "(" + str(value) + u"\u00A2"+")"
 
+def printLine():
+    print("---------------------------------------")
 
 def convertToCoins(amount):
 
@@ -40,19 +42,19 @@ def main():
 
     (half, quarters, dimes, nickels, pennies) = convertToCoins(amount)
 
-    print("---------------------------------------")
+    printLine()
     print(half, "half dollar", "\t", toCents(50))
     print(quarters, "quarters", "\t", toCents(25))
     print(dimes, "dimes", "\t", toCents(10))
     print(nickels, "nickels", "\t", toCents(5))
     print(pennies, "pennies", "\t", toCents(1))
-    print("---------------------------------------")
+    printLine()
 
 if __name__ == "__main__":
 
     try:
         main()
     except ValueError as error:
-        print("---------------------------------------")
+        printLine()
         print("Ooops! ", error)
-        print("---------------------------------------")
+        printLine()
