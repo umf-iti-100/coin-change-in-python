@@ -31,3 +31,12 @@ Please enter an amount between 0-99: 35
 0 pennies        (1¢)
 ---------------------------------------
 ```
+
+The next screenshot is when the user types an invalid amount:
+
+```sh
+Please enter an amount between 0-99: 123
+---------------------------------------
+Ooops! The amount should be between [0-99]
+---------------------------------------
+```

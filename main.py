@@ -17,7 +17,7 @@ def printLine():
 def convertToCoins(amount):
 
     if amount < 0 or amount > 99:
-        raise ValueError("amount should be between [0-99]")
+        raise ValueError("The amount should be between [0-99]")
 
     half = amount // 50
     amount %= 50
@@ -56,5 +56,5 @@ if __name__ == "__main__":
         main()
     except ValueError as error:
         printLine()
-        print("Ooops! ", error)
+        print("Ooops!", error)
         printLine()
