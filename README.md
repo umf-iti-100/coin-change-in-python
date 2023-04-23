@@ -33,7 +33,6 @@ When you run this tool, this is a possible output:
 ```sh
 Please enter an amount between 0-99: 35
 ---------------------------------------
-0 half dollar    (50¢)
 1 quarters       (25¢)
 1 dimes          (10¢)
 0 nickles        (5¢)
