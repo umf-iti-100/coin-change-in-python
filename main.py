@@ -26,25 +26,25 @@ def convertToCoins(amount):
     dimes = amount // 10
     amount %= 10
 
-    nickles = amount // 5
+    nickels = amount // 5
     amount %= 5
 
     pennies = amount % 5
 
-    return (half, quarters, dimes, nickles, pennies)
+    return (half, quarters, dimes, nickels, pennies)
 
 
 def main():
 
     amount = askInteger("Please enter an amount between 0-99: ")
 
-    (half, quarters, dimes, nickles, pennies) = convertToCoins(amount)
+    (half, quarters, dimes, nickels, pennies) = convertToCoins(amount)
 
     print("---------------------------------------")
     print(half, "half dollar", "\t", toCents(50))
     print(quarters, "quarters", "\t", toCents(25))
     print(dimes, "dimes", "\t", toCents(10))
-    print(nickles, "nickles", "\t", toCents(5))
+    print(nickels, "nickels", "\t", toCents(5))
     print(pennies, "pennies", "\t", toCents(1))
     print("---------------------------------------")
 
