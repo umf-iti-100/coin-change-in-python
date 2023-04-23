@@ -53,13 +53,11 @@ Ooops! The amount is valid
 
 These are the features planned for future versions:
 
+- Add documentation for all functions
+- Add unit tests
 - Add support to `half a dollar (50¢)`
 - Increase the valid range to `[0-500]`
 - Add support to [python-string-utils](https://pypi.org/project/python-string-utils/) to validate the user's input
-
-## Warning
-
-This project was left without any unit test or documentation on purpose.
 
 ## Questions or Suggestions
 
