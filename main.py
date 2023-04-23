@@ -19,9 +19,6 @@ def convertToCoins(amount):
     if amount < 0 or amount > 99:
         raise ValueError("The amount should be between [0-99]")
 
-    half = amount // 50
-    amount %= 50
-
     quarters = amount // 25
     amount %= 25
 
@@ -33,17 +30,16 @@ def convertToCoins(amount):
 
     pennies = amount % 5
 
-    return (half, quarters, dimes, nickels, pennies)
+    return (quarters, dimes, nickels, pennies)
 
 
 def main():
 
     amount = askInteger("Please enter an amount between 0-99: ")
 
-    (half, quarters, dimes, nickels, pennies) = convertToCoins(amount)
+    (quarters, dimes, nickels, pennies) = convertToCoins(amount)
 
     printLine()
-    print(half, "half dollar", "\t", toCents(50))
     print(quarters, "quarters", "\t", toCents(25))
     print(dimes, "dimes", "\t", toCents(10))
     print(nickels, "nickels", "\t", toCents(5))

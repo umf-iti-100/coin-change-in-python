@@ -50,6 +50,12 @@ Ooops! The amount should be between [0-99]
 ---------------------------------------
 ```
 
+## To-Do
+
+These are the features planned for future versions:
+
+- Add support to `half dollar (50¢)`
+
 ## Warning
 
 This project was left without any unit test or documentation on purpose.
