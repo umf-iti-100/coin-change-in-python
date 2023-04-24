@@ -59,6 +59,10 @@ These are the features planned for future versions:
 - Increase the valid range to `[0-500]`
 - Add support to [python-string-utils](https://pypi.org/project/python-string-utils/) to validate the user's input
 
+## Acknowledgment
+
+I would like to thank Marwa and Justin for this idea
+
 ## Questions or Suggestions
 
 Feel free to access the <a href="../../discussions">discussions tab</a> as you need
