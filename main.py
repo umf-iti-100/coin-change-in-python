@@ -38,7 +38,7 @@ def convertToCoins(amount):
 
 def main():
 
-    amount = askInteger("Please enter an amount between 0-99: ")
+    amount = askInteger("Please enter an amount between 0-99. Type -1 if you are done: ")
 
     while amount != -1:
 
@@ -51,7 +51,7 @@ def main():
         print(pennies, "pennies", "\t", toCents(1))
         printLine()
 
-        amount = askInteger("Please enter an amount between 0-99: ")
+        amount = askInteger("Please enter an amount between 0-99. Type -1 if you are done: ")
 
     print("Thank you")
 
