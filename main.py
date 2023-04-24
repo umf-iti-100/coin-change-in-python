@@ -40,15 +40,20 @@ def main():
 
     amount = askInteger("Please enter an amount between 0-99: ")
 
-    (quarters, dimes, nickels, pennies) = convertToCoins(amount)
+    while amount != -1:
 
-    printLine()
-    print(quarters, "quarters", "\t", toCents(25))
-    print(dimes, "dimes", "\t", toCents(10))
-    print(nickels, "nickels", "\t", toCents(5))
-    print(pennies, "pennies", "\t", toCents(1))
-    printLine()
+        (quarters, dimes, nickels, pennies) = convertToCoins(amount)
 
+        printLine()
+        print(quarters, "quarters", "\t", toCents(25))
+        print(dimes, "dimes", "\t", toCents(10))
+        print(nickels, "nickels", "\t", toCents(5))
+        print(pennies, "pennies", "\t", toCents(1))
+        printLine()
+
+        amount = askInteger("Please enter an amount between 0-99: ")
+
+    print("Thank you")
 
 if __name__ == "__main__":
 
