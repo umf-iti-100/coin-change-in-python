@@ -2,6 +2,8 @@ def askInteger(msg):
 
     value = input(msg)
 
+    # Validade user's input
+
     value = int(value)
 
     return value
